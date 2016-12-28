@@ -24,14 +24,14 @@
   "readmeFilename": "README.md",
   "dependencies": {
     "async": "*",
-    "lodash": "3.10.1",
-    "node-firebird": "0.8.0",
+    "lodash": "*",
+    "node-firebird": "*",
     "waterline-errors": "*",
-    "waterline-sequel": "0.5.0",
-    "waterline-cursor": "*"
+    "waterline-sequel": "0.5.7",
+    "waterline-cursor": "0.0.7"
   },
   "devDependencies": {
-    "waterline-adapter-tests": "*",
+    "waterline-adapter-tests": "0.10.19",
     "mocha": "*",
     "root-require": "~0.2.0",
     "captains-log": "~0.10.6"
