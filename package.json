@@ -23,28 +23,33 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "*",
-    "lodash": "*",
-    "node-firebird": "paseek/node-firebird",
-    "waterline-errors": "*",
-    "waterline-sequel": "paseek/waterline-sequel",
-    "waterline-cursor": "*"
+    "async": "1.5.2",
+    "lodash": "3.10.1",
+    "node-firebird": "^0.6.7",
+    "waterline-cursor": "0.0.6",
+    "waterline-errors": "0.10.1",
+    "waterline-sequel": "0.6.0"
   },
   "devDependencies": {
-    "waterline-adapter-tests": "*",
-    "mocha": "*",
+    "waterline-adapter-tests": "0.12.0",
+    "mocha": "2.4.5",
     "root-require": "~0.2.0",
-    "captains-log": "~0.10.6"
+    "captains-log": "0.11.11"
   },
-  "sailsAdapter": {
-    "sailsVersion": "~0.10.0",
-    "implements1": [
+  "waterlineAdapter": {
+    "waterlineVersion": "~0.10.0",
+    "interfaces": [
       "semantic",
       "queryable",
-      "associations"
+      "migratable",
+      "associations",
+      "sql"
     ],
-    "implements": [
-      "semantic"
+    "features": [
+      "crossAdapter",
+      "unique",
+      "autoIncrement",
+      "schemas"
     ]
   }
 }
