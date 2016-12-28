@@ -23,18 +23,18 @@
   "license": "MIT",
   "readmeFilename": "README.md",
   "dependencies": {
-    "async": "1.5.2",
+    "async": "*",
     "lodash": "3.10.1",
     "node-firebird": "0.8.0",
-    "waterline-cursor": "0.0.6",
-    "waterline-errors": "0.10.1",
-    "waterline-sequel": "0.6.0"
+    "waterline-errors": "*",
+    "waterline-sequel": "0.5.0",
+    "waterline-cursor": "*"
   },
   "devDependencies": {
-    "waterline-adapter-tests": "0.10.0",
-    "mocha": "2.4.5",
-    "root-require": "^0.2.0",
-    "captains-log": "^0.10.6"
+    "waterline-adapter-tests": "*",
+    "mocha": "*",
+    "root-require": "~0.2.0",
+    "captains-log": "~0.10.6"
   },
   "sailsAdapter": {
     "sailsVersion": "~0.10.0",
