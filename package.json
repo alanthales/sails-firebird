@@ -25,7 +25,7 @@
   "dependencies": {
     "async": "*",
     "lodash": "*",
-    "node-firebird": "*",
+    "node-firebird": "0.8.0",
     "waterline-errors": "*",
     "waterline-sequel": "0.5.7",
     "waterline-cursor": "0.0.7"
